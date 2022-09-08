@@ -24,8 +24,7 @@ public class StreamExample {
 		numbers.add(87);
 		
 		
-//		numbers.stream().filter(num -> num%2==0){System.out.println("number is even")};
-//		numbers.forEach((num)->{System.out.println("number is even");});
+// 		using stream and lambda
 		numbers.stream().forEach(i -> {if (i.intValue() % 2 == 0) {System.out.println("number is even");;} else {System.out.println("number is odd");;}});
 		
 		
